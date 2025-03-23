@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250323133620">
+	<link rel="shortcut icon" href="favicon.ico">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<title>Andrii Veliksar</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">Andrii Veliksar</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".hero" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".story" class="menu__link">Story</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".stages" class="menu__link">Stages</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".skills" class="menu__link">Skills</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".projects" class="menu__link">Projects</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".contacts" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section data-watch="navigator" class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Front-end developer</h1>
+						<div class="hero__text">
+							<p><span>Hi there !</span> My name is Andrii, I am 18 years old and I am a front-end developer.
+								My specialization is the development of effective and adaptive user interfaces.</p>
+							<p>My goal is to learn new technologies and help people solve their problems.</p>
+						</div>
+					</div>
+					<img class="hero__image image" src="img/hero.jpg" alt="Picture">
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.1" class="page__story story">
+				<div class="story__container">
+					<div class="story__body">
+						<cite class="story__citate">Every line of code is a step towards a new solution.”</cite>
+						<img class="story__image image" src="img/about.jpg" alt="Picture">
+					</div>
+					<div class="story__content">
+						<h2 class="story__title title">My story</h2>
+						<div class="story__text">
+							<p>Hi there, my name is Andrii, I am 18 years old.</p>
+							<p>My journey into front-end development started with a simple interest. One day I saw an offer
+								on the Internet to take a trial course from an IT company, where I was offered to learn the
+								basics of HTML and CSS by creating my first website.</p>
+							<p>That was my first step into the world of web development.</p>
+							<br>
+
+							<p>And i loved it. Since then, I've gradually delved deeper into learning the technologies and
+								tools needed to create modern web applications. With each new project, I discovered something
+								new that motivated me to move forward.</p>
+							<br>
+							<p>This process of learning and creating my own websites became my passion and led me to choose
+								front-end development as my main focus.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.2" class="page__stages stages">
+				<div class="stages__container">
+					<h2 class="stages__title title">my course of action</h2>
+					<ul class="stages__list list-stages">
+						<li class="list-stages__item">
+							<div class="list-stages__text">analysis of the task</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">deadlines clarification</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">pull yourself together</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">programming</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">testing my code</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">if the client is happy</div>
+						</li>
+						<li class="list-stages__item">
+							<div class="list-stages__text">give the finished projecty.</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.2" class="page__skills skills">
+				<div class="skills__container">
+					<img class="skills__image image" src="img/skills.jpg" alt="Picture">
+					<div class="skills__content">
+						<h2 class="skills__title title">my skills</h2>
+						<ul class="skills__items items-skills">
+							<li class="items-skills__item">
+								<div class="items-skills__text items-skills__text--html">html</div>
+							</li>
+							<li class="items-skills__item">
+								<div class="items-skills__text items-skills__text--css">css</div>
+							</li>
+							<li class="items-skills__item">
+								<div class="items-skills__text items-skills__text--scss">scss</div>
+							</li>
+							<li class="items-skills__item">
+								<div class="items-skills__text items-skills__text--javascript">javacript</div>
+							</li>
+							<li class="items-skills__item">
+								<div class="items-skills__text items-skills__text--git">git</div>
+							</li>
+						</ul>
+						<div class="skills__body">
+							<div class="skills__label">as well as my other skills:</div>
+							<div class="skills__text">
+								figma, github, webpack, gulp, c#, c++, python, rust
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.2" class="page__projects projects">
+				<div class="projects__container">
+					<h2 class="projects__title title">My projects</h2>
+					<div class="projects__controlls">
+						<button type="button" class="projects__arrow projects__arrow--left"></button>
+						<button type="button" class="projects__arrow projects__arrow--right"></button>
+					</div>
+					<div class="projects__slider swiper">
+						<div class="projects__wrapper swiper-wrapper">
+							<div class="projects__slide slide-projects slide-projects--dark swiper-slide">
+								<a href="https://moonspruc.github.io/BelleCafe/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/01.png" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">Belle Cafe</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The goal of the project is to create a website for a coffee shop that offers users
+											the opportunity not only to purchase coffee and other products, but also to visit a
+											cozy establishment for relaxation. The website features the possibility of online
+											purchase of coffee, as well as the main coffee machine, which is located in the
+											coffee house.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/BelleCafe/" target="_blank" class="slide-projects__link">Watch
+										here</a>
+								</div>
+							</div>
+							<div class="projects__slide slide-projects swiper-slide">
+								<a href="https://moonspruc.github.io/AfricanFacets/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/02.png" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">African Facets</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The main goal of the project is to inspire travelers to explore Africa's amazing
+											destinations and provide all the information they need to plan unforgettable
+											trips.The site is a guide to the continent's interesting tourist spots, including
+											natural wonders and cultural attractions.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/AfricanFacets/" target="_blank" class="slide-projects__link">Watch
+										here</a>
+								</div>
+							</div>
+							<div class="projects__slide slide-projects slide-projects--dark swiper-slide">
+								<a href="https://moonspruc.github.io/Bonanza/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/03.jpg" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">Bonanza</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The purpose of the site is to show the diversity of the menu and emphasize the high
+											level of service. Users can view the description of each dish and also book a table
+											for a comfortable and unforgettable gastronomic experience.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/Bonanza/" target="_blank" class="slide-projects__link">Watch here</a>
+								</div>
+							</div>
+							<div class="projects__slide slide-projects swiper-slide">
+								<a href="https://moonspruc.github.io/Instingo/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/04.jpg" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">Instingo</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The main goal of the project is to help companies improve employee engagement and
+											workplace culture through step challenges. The platform gamifies physical activity,
+											encouraging employees to stay active and build stronger team connections. It
+											provides an interactive experience with real-time progress tracking, team
+											competitions, and personalized goals to boost motivation and well-being. My role as
+											a front-end developer was to create a responsive and engaging user interface,
+											ensuring seamless interactions and an intuitive experience.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/Instingo/" target="_blank" class="slide-projects__link">Watch
+										here</a>
+								</div>
+							</div>
+							<div class="projects__slide slide-projects slide-projects--dark swiper-slide">
+								<a href="https://moonspruc.github.io/Revmoto/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/05.jpg" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">RevMoto</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The main goal of the project is to provide car owners with easy access to
+											professional auto repair and maintenance services. The platform helps users find and
+											book services such as oil changes, tire replacements, diagnostics, and other
+											essential repairs. It offers a user-friendly interface with service listings,
+											pricing details, and appointment scheduling. My role as a front-end developer was to
+											create a responsive and intuitive UI, ensuring smooth navigation for customers.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/Revmoto/" target="_blank" class="slide-projects__link">Watch
+										here</a>
+								</div>
+							</div>
+							<div class="projects__slide slide-projects swiper-slide">
+								<a href="https://moonspruc.github.io/Childrens-Planet/" target="_blank" class="slide-projects__image-link">
+									<img class="slide-projects__image" src="img/projects/06.jpg" alt="Picture">
+								</a>
+								<div class="slide-projects__content">
+									<h4 class="slide-projects__title">Children's Planet</h4>
+									<div class="slide-projects__stacks">Stack: Html, Scss, JavaScript, GitHub</div>
+									<div class="slide-projects__text">
+										<p>
+											The main goal of the project is to provide a fun and engaging learning environment
+											for children through interactive educational programs. The platform showcases
+											various courses, activities, and events designed to support children's development
+											in a creative and playful way. It offers an intuitive interface for parents to
+											explore programs, enroll their kids, and stay updated on academy news. My role as a
+											front-end developer was to build a visually appealing and user-friendly UI, ensuring
+											smooth navigation and an engaging experience for both parents and children.
+										</p>
+									</div>
+									<a href="https://moonspruc.github.io/Childrens-Planet/" target="_blank" class="slide-projects__link">Watch
+										here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__contacts contacts">
+				<div class="contacts__container">
+					<h4 class="contacts__title title">Contacts</h4>
+					<ul class="contacts__items">
+						<li class="contacts__item">
+							<a href="mailto:sofaproject77@gmail.com" target="_blank" class="contacts__link">E-mail</a>
+						</li>
+						<li class="contacts__item">
+							<a href="https://github.com/MoonSpruc" target="_blank" class="contacts__link">Github</a>
+						</li>
+						<li class="contacts__item">
+							<a href="https://t.me/andrii_veliksar" target="_blank" class="contacts__link">Telegram</a>
+						</li>
+						<li class="contacts__item">
+							<a href="http://instgram.com/andrii_veliksar_" target="_blank" class="contacts__link">Instagram</a>
+						</li>
+					</ul>
+					<a href="#" data-goto=".hero" class="contacts__top"></a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copy">© Andrii Veliksar 2023 - 2025</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250323133620"></script>
+</body>
+
+</html>
